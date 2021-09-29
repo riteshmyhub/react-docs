@@ -1,17 +1,16 @@
 import React from "react";
 import ReactCode from "../../../../components/ReactCode";
 
-export default function StateInFunction() {
+export default function UseStateH() {
   return (
     <>
-      <h1>state in function component</h1>
-      <ul data-ul="useState in function component">
+      <h1>UseState hook</h1>
+      <ul data-ul="what is useState hook">
         <li>useState is a hook , that is use for update to state in component</li>
         <li>useState hook import form react</li>
         <li>useState return two item cureent vaule and update value</li>
         <li>In useState syntax use array destructuring</li>
       </ul>
-
       <ReactCode
         file="Syntax : useState"
         dot="jsx"
@@ -25,7 +24,7 @@ export default function StateInFunction() {
           `}
       />
 
-      <ul data-ul="how to use useState hook in component">
+      <ul data-ul="how to use useState hook">
         <li>
           <strong className="text-warning">warning : </strong>
           useState hook must be put top in componet

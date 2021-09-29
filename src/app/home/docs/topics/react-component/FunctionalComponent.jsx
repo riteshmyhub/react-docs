@@ -11,12 +11,15 @@ export default function FunctionalComponent() {
       </ul>
 
       <ul data-ul="Create functional Component">
-          <li> step 1 {`>`} : create Header.jsx file</li>
-          <li> step 2 {`>`} : import to React from "react" in Header.jsx file</li> 
-          <li>step 3  {`>`} : create a Function and return must be use for jsx elements</li>
-          <li>step 4  {`>`} :  export default to component</li>
+        <li> step 1 {`>`} : create Header.jsx file</li>
+        <li> step 2 {`>`} : import to React from "react" in Header.jsx file</li>
+        <li>step 3 {`>`} : create a Function and return must be use for jsx elements</li>
+        <li>step 4 {`>`} : export default to component</li>
       </ul>
-      <ReactCode file="Header" dot="jsx" code={`
+      <ReactCode
+        file="Header"
+        dot="jsx"
+        code={`
        import React from "react";
        
        export default function Header() {
@@ -28,11 +31,15 @@ export default function FunctionalComponent() {
            )
        }
 
-      `} />
+      `}
+      />
 
-     <ul data-ul="how to use functional Component"></ul>
-     <p>1 create a component like: Header.jsx and export to component</p>
-     <ReactCode file="1 Header" dot="jsx" code={`
+      <ul data-ul="how to use functional Component"></ul>
+      <p>1 create a component like: Header.jsx and export to component</p>
+      <ReactCode
+        file="1 Header"
+        dot="jsx"
+        code={`
        import React from "react";
        
        export default function Header() {
@@ -43,9 +50,13 @@ export default function FunctionalComponent() {
            )
        }
 
-      `} />
-    <p>2 import to Header component root component</p>
-     <ReactCode file="2 App" dot="jsx" code={`
+      `}
+      />
+      <p>2 import to Header component root component</p>
+      <ReactCode
+        file="2 App"
+        dot="jsx"
+        code={`
        import React from "react";
        import Header from "./Header";//import to component
 
@@ -59,9 +70,13 @@ export default function FunctionalComponent() {
            )
        }
 
-      `} />
- <p>3 root component import in index.js</p>
-      <ReactCode file="3 index" dot="js" code={`
+      `}
+      />
+      <p>3 root component import in index.js</p>
+      <ReactCode
+        file="3 index"
+        dot="js"
+        code={`
        import React from "react";
        import ReactDOM from "react-dom";
        import App from "./app/App";
@@ -70,7 +85,8 @@ export default function FunctionalComponent() {
            <App/>,
            document.getElementById('root')
        )
-      `} />
+      `}
+      />
     </>
   );
 }

@@ -15,11 +15,12 @@ export default function Component() {
       <ul data-ul="types for Component">
         <li>1 function component</li>
         <li>2 class component</li>
-        <li>3 HOC (Higher-Order Components)</li>
-        <li>4 controlled and components</li>
-        <li>5 uncontrolled Components</li>
-        <li>6 Dumb Components</li>
-        <li>7 smart Components</li>
+        <li>3 pure component</li>
+        <li>4 HOC (Higher-Order Components)</li>
+        <li>5 controlled and components</li>
+        <li>6 uncontrolled Components</li>
+        <li>7 Dumb Components</li>
+        <li>8 smart Components</li>
       </ul>
     </>
   );
